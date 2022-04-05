@@ -6,10 +6,18 @@ category = "main"
 optional = false
 python-versions = ">=3.8"
 
+[[package]]
+name = "the"
+version = "0.1.5"
+description = "rspec/should.js assertion style for python test"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "991972e7eb4f72b3a3746f926020830f54fa7944291e4c402ae7fe9d9c3968d4"
+content-hash = "ea3f05419ce1263fec9926f7ecb0d362b20eddaf615336cf28e9d1d8aadf98b5"
 
 [metadata.files]
 numpy = [
@@ -33,4 +41,7 @@ numpy = [
     {file = "numpy-1.22.3-cp39-cp39-win_amd64.whl", hash = "sha256:639b54cdf6aa4f82fe37ebf70401bbb74b8508fddcf4797f9fe59615b8c5813a"},
     {file = "numpy-1.22.3-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c34ea7e9d13a70bf2ab64a2532fe149a9aced424cd05a2c4ba662fd989e3e45f"},
     {file = "numpy-1.22.3.zip", hash = "sha256:dbc7601a3b7472d559dc7b933b18b4b66f9aa7452c120e87dfb33d02008c8a18"},
+]
+the = [
+    {file = "the-0.1.5.tar.gz", hash = "sha256:977d36224b3ee6ca2c12728bbcfb890801f1cb793e2e1a0db2e285da7fb5835b"},
 ]
